@@ -1,0 +1,19 @@
+> Q1:
+
+    Microsserviços é um tipo de arquitetura a qual foca seus esforços na modularização da aplicação através de pequenos componentes chamados serviços, os quais provêm unicamente uma funcionalidade.
+
+> Q2:
+
+    Durante décadas o padrão arquitetural de desenvolvimento girou em torno das aplicações monolíticas, aquelas criadas e evoluídas como um único e gigantesco bloco de código.
+    Atuando como antagonista de sua precursora, os microsserviços oferecem uma solução mais flexível, confiável e escalável que surge como uma alternativa aos monólitos para muitas das aplicações atuais.
+
+> Q3:
+
+    As três principais características dos microsserviços são:
+    1. Fácil manutenabilidade. É muitas mais simples oferecer correções e melhorias para uma arquitetura de microsserviços.
+    2. Baixo acoplamento. Todos os serviços são totalmente isolados dos demais, gerando por consequência uma maior robustez na aplicação formada por eles.
+    3. Alta escalabilidade. É fundamental para as aplicações serem altamente escalável, isto é, poder dar vazão a mais usuários caso a demanda cresça e encolher o seu consumo de recursos caso esta demanda caia.
+
+> Q4:
+
+    Microsserviços podem se comunicar de maneira síncrona e assíncrona, onde a primeira usa HTTP e a segunda o AMQP.

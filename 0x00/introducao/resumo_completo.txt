@@ -1,0 +1,19 @@
+> O que é microsserviços ?
+
+    Microsserviços é um tipo de arquitetura a qual foca seus esforços na modularização da aplicação através de pequenos componentes chamados serviços, os quais provêm unicamente uma funcionalidade e, idealmente, devem ser isolados dos demais participantes da aplicação.
+
+> Visão geral da arquitetura Monolítica e de Microsserviços
+
+    Durante décadas o padrão arquitetural de desenvolvimento girou em torno das aplicações monolíticas, aquelas criadas e evoluídas como um único e gigantesco bloco de código e que por sua vez é normalmente executada em uma única instância, sendo totalmente interrompida caso qualquer parte venha a apresentar falha.
+    Atuando como antagonista de sua precursora, os microsserviços oferecem uma solução mais flexível, confiável e escalável que, embora tenha as suas porções de limitações, surge como uma ótima alternativa aos monólitos para muitas das aplicações atuais.
+
+> Os benefícios da arquitetura de microsserviços - Cite 3 exemplos
+
+    As três principais características dos microsserviços são:
+    1. Fácil manutenibilidade. É muitas mais simples oferecer correções e melhorias para uma arquitetura de microsserviços. Tal fato ocorre, majoritariamente, pelo isolamento de contexto entre as unidades da aplicação, causando um fácil entendimento do comportamento de um serviço, bem como seus pontos de falha.
+    2. Baixo acoplamento. Todos os serviços são, idealmente, totalmente isolados dos demais, isso gera por consequência uma maior robustez na aplicação formada por eles. mesmo que um ou múltiplos módulos estejam fora do ar a aplicação, como um todo, ainda estará de pé e disponível para seus usuários. Ademais, o baixo acoplamento reduz a change de problemas transversais entre serviços, o que quase que elimina a change de inserção de novos bugs por mudanças em códigos não diretamente relacionados.
+    3. Alta escalabilidade. Nos tempos atuais é fundamental para as aplicações serem altamente escalável, isto é, poder dar vazão a mais usuários caso a demanda cresça e encolher o seu consumo de recursos caso esta demanda caia. Devido ao desacoplamento dos serviços é possível utilizar múltiplas instancias de serviços específicos, aqueles mais requisitados, sem a necessidade de replicar uma nova instância da aplicação como ocorre nos monólitos. Tal fato acarreta em maior facilidade para atender um número usuários que são bem variáveis ao longo de curtos períodos de tempo sem desperdiçar recursos.
+
+> Quais são os tipos de comunicação entre os microsserviços ?
+
+    Basicamente microsserviçso pode se comunicar de maneira síncrona e assíncrona, onde na primeira o protocolo HTTP pode ser utilizado, enquanto na segundo o mais proeminente é o AMQP.
