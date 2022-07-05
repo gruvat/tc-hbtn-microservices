@@ -1,0 +1,9 @@
+#1: Uma arquitetura serverless se baseia na ideia da execução da aplicação em uma infraestrutura de rede administrada e providênciada sob demanda por uma fornecedora. Sendo assim o desenvolvedor não necessita se preocupar com configurações do lado do servidor. Ademais, o pagamento de tais serviços é correspondente a quantidade utilizada, favorecendo assim a escalabilidade do projeto.
+
+#2: Function as a service é uma das arquiteturas serverless a qual o desenvolvedor utiliza o serviço de execução de funções sob demanda, onde tais funções pode, inclusive, ser um microsserviço. Tal execução se dá através da orientação á eventos e, assim como serverless, seu pagamento é realizado proporcionalmente a sua utilização.
+
+#3: Maior escalabilidade para o projeto, pagamento flexível de acordo com a demanda, maior tempo de desenvolvimento para o programador, otimização específica para serviços ou funções, além de muitos outros.
+
+#4: Cloud Computing corresponde a uma série de serviços que providos para o usuário final através da internet, ou seja, na "nuvem". Tal nuvem pode ser pública, provida por uma empresa externa, privada, servidores da própria empresa utilizadora, ou híbrida, uma mescla das duas anteriores. Serviços de cloud computing englobam FAAS (Function), SAAS (Software), IAAS (Infrastructure), armazenamento e muitos outros.
+
+#5: Arquitetura monolítica consiste em uma única e gigante aplicação que é responsável pela execução de todas as funcionalidades. Uma arquitetura de microsserviços está relacionada a como a aplicação será particionada por "serviços", ou seja, pequenas unidades idependentes entre sí que possuem uma única e exclusiva responsabilidade. Steteless está relacionado a arquitetura de infraestrutura e como e onde a aplicação sofrerá o deploy de suas funcionalidades, ou serviços, portanto é possível possuir, por exemplo, uma aplicação com microsserviços serverless.
